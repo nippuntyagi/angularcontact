@@ -35,6 +35,7 @@ app.use(bodyparser.json());
 //static files
 app.use(express.static(path.join(__dirname, 'public')));
 
+//routes
 app.use('/api', route);
 
 //testing server
